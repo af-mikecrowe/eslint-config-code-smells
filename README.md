@@ -2,6 +2,12 @@
 
 Based on the work of [jdanil/eslint-config-code-smells](https://github.com/jdanil/eslint-config-code-smells)
 
+NOTE: This is a _**TypeScript**_ only project at this time. It expects:
+
+- TypeScript 3
+- ESLint 7
+- Prettier
+
 ## Operation
 
 When this configuration is included in a project, it loads 2 configuration files:

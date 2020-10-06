@@ -1,19 +1,19 @@
 {
-  "name": "eslint-config-code-smells",
+  "name": "eslint-config-codeclimate",
   "description": "ESLint Rules to Enforce Clean Code",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "license": "MIT",
-  "homepage": "https://github.com/jdanil/eslint-config-code-smells",
+  "homepage": "https://github.com/CNGHoldingsInc/eslint-config-codeclimate",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jdanil/eslint-config-code-smells.git"
+    "url": "https://github.com/CNGHoldingsInc/eslint-config-codeclimate.git"
   },
   "bugs": {
-    "url": "https://github.com/jdanil/eslint-config-code-smells/issues"
+    "url": "https://github.com/CNGHoldingsInc/eslint-config-codeclimate/issues"
   },
-  "main": "index.yaml",
+  "main": "index.js",
   "files": [
-    "**/*.yaml"
+    "**/*.js"
   ],
   "keywords": [
     "clean",
