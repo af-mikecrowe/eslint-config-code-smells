@@ -1,0 +1,48 @@
+{
+  "name": "eslint-config-code-smells",
+  "description": "ESLint Rules to Enforce Clean Code",
+  "version": "0.2.1",
+  "license": "MIT",
+  "homepage": "https://github.com/jdanil/eslint-config-code-smells",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdanil/eslint-config-code-smells.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jdanil/eslint-config-code-smells/issues"
+  },
+  "main": "index.yaml",
+  "files": [
+    "**/*.yaml"
+  ],
+  "keywords": [
+    "clean",
+    "code",
+    "config",
+    "eslint",
+    "heuristics",
+    "smells"
+  ],
+  "peerDependencies": {
+    "@typescript-eslint/parser": "^4.1.1",
+    "eslint": ">=7",
+    "prettier": ">=2.1.2"
+  },
+  "peerDependenciesMeta": {
+    "@typescript-eslint/parser": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.1.1",
+    "@typescript-eslint/parser": "^4.1.1",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-jest": "^24.0.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-sonarjs": "^0.5.0",
+    "eslint-plugin-tsdoc": "^0.2.7",
+    "eslint-plugin-unicorn": "^21.0.0",
+    "js-yaml": "^3.14.0",
+    "typescript": "^3"
+  }
+}
